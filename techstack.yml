@@ -1,0 +1,535 @@
+repo_name: Wladoo/corert
+report_id: 4f63d5c16c69c83fc5429d84a9df8994
+version: 0.1
+repo_type: Public
+timestamp: '2024-02-25T10:27:37+00:00'
+requested_by: MichalStrehovsky
+provider: github
+branch: master
+detected_tools_count: 41
+tools:
+- name: ASP.NET
+  description: An open source web framework for building modern web apps and services
+    with .NET
+  website_url: https://www.asp.net/
+  version: '4.6'
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/6755/2c45151a4a11d3a3c8e71bb34dd069d6_400x400.png
+  detection_source_url: https://github.com/Wladoo/corert/blob/master/src/Common/src/Internal/Metadata/NativeFormat/Generator/NativeFormatGen.csproj
+  detection_source: src/Common/src/Internal/Metadata/NativeFormat/Generator/NativeFormatGen.csproj
+  last_updated_by: Jan Kotas
+  last_updated_on: 2016-06-20 07:47:45.000000000 Z
+- name: Assembly Language
+  description: A low-level programming language
+  website_url: https://en.wikipedia.org/wiki/Assembly_language
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4934/default_71f18bbdc61fb88cefb66415bb55dc6f1e60e5ec.png
+  detection_source_url: https://github.com/Wladoo/corert
+  detection_source: Repo Metadata
+- name: C lang
+  description: One of the most widely used programming languages of all time
+  website_url: http://en.wikipedia.org/wiki/C_(programming_language)
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/no-img-open-source.png
+  detection_source_url: https://github.com/Wladoo/corert
+  detection_source: Repo Metadata
+- name: C#
+  description: Simple, general-purpose, object-oriented programming language for the
+    .NET platform
+  website_url: http://csharp.net
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1015/1200px-C_Sharp_wordmark.svg.png
+  detection_source_url: https://github.com/Wladoo/corert
+  detection_source: Repo Metadata
+- name: C++
+  description: Has imperative, object-oriented and generic programming features, while
+    also providing the facilities for low level memory manipulation
+  website_url: http://www.cplusplus.com/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1049/cplusplus.png
+  detection_source_url: https://github.com/Wladoo/corert
+  detection_source: Repo Metadata
+- name: Python
+  description: A clear and powerful object-oriented programming language, comparable
+    to Perl, Ruby, Scheme, or Java.
+  website_url: https://www.python.org
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/993/pUBY5pVj.png
+  detection_source_url: https://github.com/Wladoo/corert
+  detection_source: Repo Metadata
+- name: ".NET"
+  description: A free, cross-platform, open source developer platform for building
+    many different types of applications
+  website_url: http://www.microsoft.com/net/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/1014/IoPy1dce_400x400.png
+  detection_source_url: https://github.com/Wladoo/corert/blob/master/tests/src/tools/ReadyToRun.SuperIlc/ReadyToRun.SuperIlc.csproj
+  detection_source: tests/src/tools/ReadyToRun.SuperIlc/ReadyToRun.SuperIlc.csproj
+  last_updated_by: Simon Nattress
+  last_updated_on: 2019-02-15 20:31:06.000000000 Z
+- name: ".NET Core"
+  description: An Open Source, General-Purpose Development Platform Maintained by
+    Microsoft and the .NET Community
+  website_url: https://docs.microsoft.com/en-us/dotnet/core/
+  version: '2.1'
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/6403/default_91fc1f0ee315262794273aa1387eaf8fed8436e6.png
+  detection_source_url: https://github.com/Wladoo/corert/blob/master/samples/HelloWorld/HelloWorld.csproj
+  detection_source: samples/HelloWorld/HelloWorld.csproj
+  last_updated_by: Michal Strehovský
+  last_updated_on: 2018-03-14 05:57:02.000000000 Z
+- name: ASP.NET Core
+  description: A cross-platform .NET framework for building modern cloud-based web
+    applications on Windows, Mac, or Linux
+  website_url: docs.microsoft.com/en-us/aspnet/core/
+  version: '2.1'
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/11331/asp.net-core.png
+  detection_source_url: https://github.com/Wladoo/corert/blob/master/samples/HelloWorld/HelloWorld.csproj
+  detection_source: samples/HelloWorld/HelloWorld.csproj
+  last_updated_by: Michal Strehovský
+  last_updated_on: 2018-03-14 05:57:02.000000000 Z
+- name: Azure Pipelines
+  description: Continuously build, test, and deploy to any platform and cloud
+  website_url: https://azure.microsoft.com/ko-kr/services/devops/pipelines/
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/10164/528389819366_e7a0672f0480b3e98d21_512.png
+  detection_source_url: https://github.com/Wladoo/corert/blob/master/azure-pipelines.yml
+  detection_source: azure-pipelines.yml
+  last_updated_by: Sergiy Kuryata
+  last_updated_on: 2019-03-04 23:09:56.000000000 Z
+- name: CMake
+  description: An open-source system that manages the build process
+  website_url: http://www.cmake.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Java Build Tools
+  image_url: https://img.stackshare.io/service/2424/0UlUI_y1_400x400.jpg
+  detection_source_url: https://github.com/Wladoo/corert
+  detection_source: Repo Metadata
+- name: Docker
+  description: Enterprise Container Platform for High-Velocity Innovation.
+  website_url: https://www.docker.com/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Virtual Machine Platforms & Containers
+  image_url: https://img.stackshare.io/service/586/n4u37v9t_400x400.png
+  detection_source_url: https://github.com/Wladoo/corert
+  detection_source: Repo Metadata
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/Wladoo/corert
+  detection_source: Repo Metadata
+- name: NuGet
+  description: The package manager for .NET
+  website_url: https://www.nuget.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/service/2637/6I3oEOP4_400x400.jpg
+  detection_source_url: https://github.com/Wladoo/corert/blob/master/tests/src/tools/ReadyToRun.SuperIlc/ReadyToRun.SuperIlc.csproj
+  detection_source: tests/src/tools/ReadyToRun.SuperIlc/ReadyToRun.SuperIlc.csproj
+  last_updated_by: Simon Nattress
+  last_updated_on: 2019-02-15 20:31:06.000000000 Z
+- name: Visual Studio
+  description: State-of-the-art tools and services that you can use to create great
+    apps for devices, the cloud, and everything in between.
+  website_url: http://msdn.microsoft.com/en-us/vstudio/aa718325.aspx
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Integrated Development Environment
+  image_url: https://img.stackshare.io/service/1451/SR2hUhQN.png
+  detection_source_url: https://github.com/Wladoo/corert/blob/master/src/ILCompiler.Compiler/ILCompiler.Compiler.sln
+  detection_source: src/ILCompiler.Compiler/ILCompiler.Compiler.sln
+  last_updated_by: Michal Strehovský
+  last_updated_on: 2017-08-14 17:45:22.000000000 Z
+- name: Visual Studio Code
+  description: Build and debug modern web and cloud applications, by Microsoft
+  website_url: https://code.visualstudio.com/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Text Editor
+  image_url: https://img.stackshare.io/service/4202/Visual_Studio_Code_logo.png
+  detection_source_url: https://github.com/Wladoo/corert/blob/master/.vscode/tasks.json
+  detection_source: ".vscode/tasks.json"
+  last_updated_by: Yi Zhang (CLR)
+  last_updated_on: 2017-01-20 07:25:58.000000000 Z
+- name: Alpine Linux
+  description: Security-oriented, lightweight Linux distribution based on musl libc
+    and busybox
+  website_url: https://www.alpinelinux.org/
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Operating Systems
+  image_url: https://img.stackshare.io/service/6429/alpine_linux.png
+  detection_source_url: https://github.com/Wladoo/corert/blob/master/.devcontainer/Dockerfile
+  detection_source: ".devcontainer/Dockerfile"
+  last_updated_by: Timmy Douglas
+  last_updated_on: 2019-06-23 19:18:21.000000000 Z
+- name: Debian
+  description: The Universal Operating System
+  website_url: https://www.debian.org/
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Operating Systems
+  image_url: https://img.stackshare.io/service/1656/vd4gAekh.png
+  detection_source_url: https://github.com/Wladoo/corert/blob/master/.devcontainer/Dockerfile
+  detection_source: ".devcontainer/Dockerfile"
+  last_updated_by: Timmy Douglas
+  last_updated_on: 2019-06-23 19:18:21.000000000 Z
+- name: PowerShell
+  description: A task automation and configuration management framework
+  website_url: https://docs.microsoft.com/en-us/powershell/
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/3681/powershell-logo.png
+  detection_source_url: https://github.com/Wladoo/corert
+  detection_source: Repo Metadata
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/Wladoo/corert
+  detection_source: Repo Metadata
+- name: Ubuntu
+  description: The leading OS for PC, tablet, phone and cloud
+  website_url: http://www.ubuntu.com/
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Operating Systems
+  image_url: https://img.stackshare.io/service/3511/cof_orange_hex.jpg
+  detection_source_url: https://github.com/Wladoo/corert/blob/master/.devcontainer/Dockerfile
+  detection_source: ".devcontainer/Dockerfile"
+  last_updated_by: Timmy Douglas
+  last_updated_on: 2019-06-23 19:18:21.000000000 Z
+- name: Microsoft.AspNetCore.Mvc.Core
+  description: ASP.NET Core MVC core components
+  package_url: https://www.nuget.org/Microsoft.AspNetCore.Mvc.Core
+  version: 2.1.0
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/12903/default_4b18ad6ce0b5b2bd1dc822207c362ce8e0f74098.png
+  detection_source_url: https://github.com/Wladoo/corert/blob/master/samples/HelloWorld/HelloWorld.csproj
+  detection_source: samples/WebApi/SampleWebApi.csproj
+  last_updated_by: Adeel Mujahid
+  last_updated_on: 2018-06-21 00:06:28.000000000 Z
+- name: Microsoft.AspNetCore.Mvc.Formatters.Json
+  description: ASP.NET Core MVC formatters for JSON input and output and for JSON
+    PATCH input using Json.NET
+  package_url: https://www.nuget.org/Microsoft.AspNetCore.Mvc.Formatters.Json
+  version: 2.1.0
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13221/default_c8e572417e69bbdabda8ecc4a08c016319f24023.png
+  detection_source_url: https://github.com/Wladoo/corert/blob/master/samples/WebApi/SampleWebApi.csproj
+  detection_source: samples/WebApi/SampleWebApi.csproj
+  last_updated_by: Adeel Mujahid
+  last_updated_on: 2018-06-21 00:06:28.000000000 Z
+- name: Microsoft.Build
+  description: This package contains the Microsoft.Build assembly which is used to
+    create
+  package_url: https://www.nuget.org/Microsoft.Build
+  version: 16.0.461
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13481/default_e845e613dc130a120019ec31413d9a887d62ad99.png
+  detection_source_url: https://github.com/Wladoo/corert/blob/master/tests/src/tools/ReadyToRun.SuperIlc/ReadyToRun.SuperIlc.csproj
+  detection_source: tests/src/tools/ReadyToRun.SuperIlc/ReadyToRun.SuperIlc.csproj
+  last_updated_by: Tomáš Rylek
+  last_updated_on: 2019-05-14 20:38:15.000000000 Z
+- name: Microsoft.Build.Framework
+  description: This package contains the Microsoft.Build.Framework assembly which
+    is a common assembly used by other MSBuild assemblies
+  package_url: https://www.nuget.org/Microsoft.Build.Framework
+  version: 16.0.461
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13422/default_9b520b7c258654c414831abb72568e430492595c.png
+  detection_source_url: https://github.com/Wladoo/corert/blob/master/tests/src/tools/ReadyToRun.SuperIlc/ReadyToRun.SuperIlc.csproj
+  detection_source: tests/src/tools/ReadyToRun.SuperIlc/ReadyToRun.SuperIlc.csproj
+  last_updated_by: Tomáš Rylek
+  last_updated_on: 2019-05-14 20:38:15.000000000 Z
+- name: Microsoft.Diagnostics.Tracing.TraceEvent
+  description: Event Tracing for Windows
+  package_url: https://www.nuget.org/Microsoft.Diagnostics.Tracing.TraceEvent
+  version: 2.0.38
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/14420/default_173ec891280076d3562de36695be599c5f63d489.png
+  detection_source_url: https://github.com/Wladoo/corert/blob/master/tests/src/tools/ReadyToRun.SuperIlc/ReadyToRun.SuperIlc.csproj
+  detection_source: tests/src/tools/ReadyToRun.SuperIlc/ReadyToRun.SuperIlc.csproj
+  last_updated_by: Tomáš Rylek
+  last_updated_on: 2019-05-14 20:38:15.000000000 Z
+- name: Microsoft.NETCore.App
+  description: A set of .NET API's that are included in the default .NET Core application
+    model
+  package_url: https://www.nuget.org/Microsoft.NETCore.App
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/12847/default_2aeaea161c566d1abfbaf3f2206fda12b1eea9cd.png
+  detection_source_url: https://github.com/Wladoo/corert/blob/master/src/ILCompiler/repro/repro.csproj
+  detection_source: src/ILCompiler/repro/repro.csproj
+  last_updated_by: Jan Kotas
+  last_updated_on: 2017-06-24 18:10:44.000000000 Z
+- name: MonoGame.Framework.DesktopGL.Core
+  description: MonoGame is an open source implementation of the Microsoft XNA 4.x
+    Framework
+  package_url: https://www.nuget.org/MonoGame.Framework.DesktopGL.Core
+  version: 3.7.0
+  license: MS-PL
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/14083/default_34824fe14b2f8e038c98ee371709a8cbd6ebb840.png
+  detection_source_url: https://github.com/Wladoo/corert/blob/master/samples/MonoGame/NeonShooter.csproj
+  detection_source: samples/MonoGame/NeonShooter.csproj
+  last_updated_by: Jan Kotas
+  last_updated_on: 2018-08-30 18:24:29.000000000 Z
+- name: Newtonsoft.Json
+  description: Json.NET is a popular high-performance JSON framework for .NET
+  package_url: https://www.nuget.org/Newtonsoft.Json
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/nuget/image.png
+  detection_source_url: https://github.com/Wladoo/corert/blob/master/tests/CoreFX/runtest/src/TestUtils/TestFileSetup/CoreFX.TestUtils.TestFileSetup.csproj
+  detection_source: tests/CoreFX/runtest/src/TestUtils/TestFileSetup/CoreFX.TestUtils.TestFileSetup.csproj
+  last_updated_by: Andon Andonov
+  last_updated_on: 2018-05-22 22:03:00.000000000 Z
+- name: Newtonsoft.Json.Schema
+  description: Json.NET Schema is a complete and easy-to-use JSON Schema framework
+    for .NET
+  package_url: https://www.nuget.org/Newtonsoft.Json.Schema
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13332/default_bf5ef28b557cbc9d58bff0b01afc8f39b37cfbc6.png
+  detection_source_url: https://github.com/Wladoo/corert/blob/master/tests/CoreFX/runtest/src/TestUtils/TestFileSetup/CoreFX.TestUtils.TestFileSetup.csproj
+  detection_source: tests/CoreFX/runtest/src/TestUtils/TestFileSetup/CoreFX.TestUtils.TestFileSetup.csproj
+  last_updated_by: Andon Andonov
+  last_updated_on: 2018-05-22 22:03:00.000000000 Z
+- name: System.Collections.Immutable
+  description: This package provides collections that are thread safe and guaranteed
+    to never change their contents, also known as immutable collections
+  package_url: https://www.nuget.org/System.Collections.Immutable
+  version: 1.3.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/12881/default_d56a77cbb06d3dae6daef9669108e3e01d2494af.png
+  detection_source_url: https://github.com/Wladoo/corert/blob/master/src/ILCompiler/netcoreapp/ilc.csproj
+  detection_source: src/ILCompiler/netcoreapp/ilc.csproj
+  last_updated_by: Jan Kotas
+  last_updated_on: 2017-06-24 18:10:44.000000000 Z
+- name: System.IO.MemoryMappedFiles
+  description: Provides classes for using a memory-mapped file, which maps the contents
+    of a file to an application's logical address space
+  package_url: https://www.nuget.org/System.IO.MemoryMappedFiles
+  version: 4.3.0
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13916/default_5b0d89659f8ef29e072f4f056edfe6596b2feb77.png
+  detection_source_url: https://github.com/Wladoo/corert/blob/master/src/ILCompiler/netcoreapp/ilc.csproj
+  detection_source: src/ILCompiler/netcoreapp/ilc.csproj
+  last_updated_by: Jan Kotas
+  last_updated_on: 2017-06-24 18:10:44.000000000 Z
+- name: System.Net.Http
+  description: Provides a programming interface for modern HTTP applications
+  package_url: https://www.nuget.org/System.Net.Http
+  version: 4.3.4
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/12860/default_ccf90b566c21ad9eaa59733f297e535ea39fb3b4.png
+  detection_source_url: https://github.com/Wladoo/corert/blob/master/tests/src/Functional/AspNetCore/AspNetCore.csproj
+  detection_source: tests/src/Functional/AspNetCore/AspNetCore.csproj
+  last_updated_by: Simon Nattress
+  last_updated_on: 2019-03-19 18:57:18.000000000 Z
+- name: System.Reflection.Metadata
+  description: This packages provides a low-level .NET
+  package_url: https://www.nuget.org/System.Reflection.Metadata
+  version: 1.4.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13093/default_8ec8443385d582f19f93b79f0dcf69f422e58967.png
+  detection_source_url: https://github.com/Wladoo/corert/blob/master/src/ILCompiler/netcoreapp/ilc.csproj
+  detection_source: src/ILCompiler/netcoreapp/ilc.csproj
+  last_updated_by: Jan Kotas
+  last_updated_on: 2017-06-24 18:10:44.000000000 Z
+- name: System.Xml.ReaderWriter
+  description: Provides provides a fast, non-cached, forward-only way to read and
+    write Extensible Markup Language
+  package_url: https://www.nuget.org/System.Xml.ReaderWriter
+  version: 4.3.0
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/12962/default_bd8397841d0aa5de035298a9130ee2dc9d9b0ece.png
+  detection_source_url: https://github.com/Wladoo/corert/blob/master/src/ILCompiler/netcoreapp/ilc.csproj
+  detection_source: src/ILCompiler/netcoreapp/ilc.csproj
+  last_updated_by: Jan Kotas
+  last_updated_on: 2017-06-24 18:10:44.000000000 Z
+- name: xunit.abstractions
+  description: Common abstractions used to exchange information between xUnit.net
+    and version-independent runners
+  package_url: https://www.nuget.org/xunit.abstractions
+  license: Other
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13312/default_51dc9af41ee0a21e27551191d6c835184da1c0d8.png
+  detection_source_url: https://github.com/Wladoo/corert/blob/master/tests/CoreFX/runtest/CoreFXTestHarness/Test.csproj
+  detection_source: tests/CoreFX/runtest/CoreFXTestHarness/Test.csproj
+  last_updated_by: Andon Andonov
+  last_updated_on: 2018-03-14 21:51:25.000000000 Z
+- name: xunit.assert
+  description: Includes the assertion library from xUnit.net
+  package_url: https://www.nuget.org/xunit.assert
+  license: Other
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13418/default_de77a8370e47861dfbe30f06e25c22916ed609b5.png
+  detection_source_url: https://github.com/Wladoo/corert/blob/master/tests/CoreFX/runtest/CoreFXTestHarness/Test.csproj
+  detection_source: tests/CoreFX/runtest/CoreFXTestHarness/Test.csproj
+  last_updated_by: Andon Andonov
+  last_updated_on: 2018-03-14 21:51:25.000000000 Z
+- name: xunit.core
+  description: Includes the libraries for writing unit tests with xUnit.net
+  package_url: https://www.nuget.org/xunit.core
+  license: Other
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13365/default_bf5ef28b557cbc9d58bff0b01afc8f39b37cfbc6.png
+  detection_source_url: https://github.com/Wladoo/corert/blob/master/tests/CoreFX/runtest/CoreFXTestHarness/Test.csproj
+  detection_source: tests/CoreFX/runtest/CoreFXTestHarness/Test.csproj
+  last_updated_by: Adeel Mujahid
+  last_updated_on: 2018-06-21 00:06:28.000000000 Z
+- name: xunit.extensibility.core
+  description: Includes xunit.core.dll for extensibility purposes
+  package_url: https://www.nuget.org/xunit.extensibility.core
+  license: Other
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13436/default_9b520b7c258654c414831abb72568e430492595c.png
+  detection_source_url: https://github.com/Wladoo/corert/blob/master/tests/CoreFX/runtest/CoreFXTestHarness/Test.csproj
+  detection_source: tests/CoreFX/runtest/CoreFXTestHarness/Test.csproj
+  last_updated_by: Adeel Mujahid
+  last_updated_on: 2018-06-21 00:06:28.000000000 Z
+- name: xunit.extensibility.execution
+  description: Includes xunit.execution.*.dll for extensibility purposes
+  package_url: https://www.nuget.org/xunit.extensibility.execution
+  license: Other
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13498/default_83bd69dd2d30bd3eae917c5ac8376fd500016904.png
+  detection_source_url: https://github.com/Wladoo/corert/blob/master/tests/CoreFX/runtest/CoreFXTestHarness/Test.csproj
+  detection_source: tests/CoreFX/runtest/CoreFXTestHarness/Test.csproj
+  last_updated_by: Andon Andonov
+  last_updated_on: 2018-03-14 21:51:25.000000000 Z
+- name: xunit.runner.utility
+  description: Includes the version-independent runner for xUnit.net to run both v1.9.2
+    and v2.0+ tests
+  package_url: https://www.nuget.org/xunit.runner.utility
+  license: Other
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/14819/default_6e5a685818280b7ef6cd4d407488c24c5de03617.png
+  detection_source_url: https://github.com/Wladoo/corert/blob/master/tests/CoreFX/runtest/CoreFXTestHarness/Test.csproj
+  detection_source: tests/CoreFX/runtest/CoreFXTestHarness/Test.csproj
+  last_updated_by: Andon Andonov
+  last_updated_on: 2018-03-14 21:51:25.000000000 Z
